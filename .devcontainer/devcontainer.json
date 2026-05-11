@@ -1,5 +1,5 @@
 {
-  "name": "ghtun",
+  "name": "self-api",
   "build": {
     "dockerfile": "./Dockerfile",
     "context": "."
