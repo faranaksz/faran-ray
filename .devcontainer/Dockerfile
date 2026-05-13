@@ -13,4 +13,4 @@ COPY config.json /etc/config.json
 
 RUN echo 'echo -e "\n✅ VLESS LINK:\nvless://21e4d722-d545-46ae-a022-f5dca66e8937@94.130.50.12:443?encryption=none&security=tls&type=xhttp&mode=packet-up&sni=${CODESPACE_NAME}-443.app.github.dev&path=%2F#clone-api"' >> /etc/bash.bashrc
 
-CMD ["/usr/local/bin/xray", "-c", "/etc/config1.json"]
+CMD ["/usr/local/bin/xray", "-c", "/etc/config.json"]
